@@ -59,6 +59,8 @@ h1.hero-head { font-family:var(--serif);font-size:clamp(3.2rem,5.5vw,5.8rem);lin
 .hero-actions { display:flex;align-items:center;gap:1.5rem; }
 .btn-primary { font-family:var(--sans);font-size:.88rem;font-weight:600;padding:.85rem 2rem;background:var(--ink);color:var(--cream);text-decoration:none;display:inline-block;cursor:pointer;transition:background .2s;letter-spacing:-.01em; }
 .btn-primary:hover { background:var(--green); }
+.btn-secondary { font-family:var(--sans);font-size:.88rem;font-weight:800;padding:.85rem 2rem;background:var(--warm);color:var(--ink);text-decoration:none;display:inline-block;cursor:pointer;transition:background .2s;letter-spacing:-.01em; }
+.btn-secondary:hover { background:var(--green-mid); }
 .btn-text { font-family:var(--mono);font-size:.72rem;letter-spacing:.06em;color:var(--muted);text-decoration:none;display:flex;align-items:center;gap:.5rem;transition:color .2s; }
 .btn-text:hover { color:var(--ink); }
 .btn-text .arr { transition:transform .2s; }

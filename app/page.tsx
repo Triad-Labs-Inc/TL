@@ -26,9 +26,10 @@ export default function Home() {
       <nav>
         <a className="nav-logo" href="#">
           <div className="logo-mark">
-            <svg viewBox="0 0 20 20" fill="none">
-              <polygon points="10,2 18,18 2,18" stroke="#1a6b47" strokeWidth="1.5" fill="rgba(26,107,71,0.1)" />
-              <polygon points="10,7 15,16 5,16" fill="rgba(26,107,71,0.18)" />
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <polygon points="12,2 6.5,11 17.5,11" fill="#1a6b47"/>
+              <polygon points="7,12.5 2,21.5 11.5,21.5" fill="#1a6b47"/>
+              <polygon points="17,12.5 12.5,21.5 22,21.5" fill="#1a6b47"/>
             </svg>
           </div>
           Triad Labs
@@ -305,8 +306,8 @@ export default function Home() {
                 <div className="pc-inc">All design, build, and maintenance</div>
               </div>
               <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' as const }}>
-                <a href="#contact" className="btn-primary">Start the engagement</a>
-                <a href="mailto:founders@triadlabs.ai" className="btn-text">Email us <span className="arr">→</span></a>
+                <a href="#contact" className="btn-primary">Talk to us →</a>
+                
               </div>
             </div>
             <div className="pricing-right">
@@ -318,7 +319,9 @@ export default function Home() {
               <hr className="pr-rule" />
               <h3 className="pr-title">What happens after.</h3>
               <p className="pr-text">You own everything we build. Most clients continue on a lighter retainer for maintenance and expansion — rolling out to studios and portfolio companies.</p>
+              <a href="mailto:founders@triadlabs.ai" className="btn-secondary">Need a custom quote? Talk to us <span className="arr">→</span></a>
             </div>
+            
           </div>
         </div>
       </section>
@@ -381,9 +384,10 @@ export default function Home() {
           <div className="ft-top">
             <div className="ft-brand">
               <a className="nav-logo" href="#">
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <polygon points="10,2 18,18 2,18" stroke="#1a6b47" strokeWidth="1.5" fill="rgba(26,107,71,0.1)" />
-                  <polygon points="10,7 15,16 5,16" fill="rgba(26,107,71,0.18)" />
+                <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <polygon points="12,2 6.5,11 17.5,11" fill="#1a6b47"/>
+                  <polygon points="7,12.5 2,21.5 11.5,21.5" fill="#1a6b47"/>
+                  <polygon points="17,12.5 12.5,21.5 22,21.5" fill="#1a6b47"/>
                 </svg>
                 Triad Labs
               </a>
