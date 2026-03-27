@@ -306,7 +306,7 @@ export default function Home() {
               </div>
               <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' as const }}>
                 <a href="#contact" className="btn-primary">Start the engagement</a>
-                <a href="mailto:hello@triadlabs.ai" className="btn-text">Email us <span className="arr">→</span></a>
+                <a href="mailto:founders@triadlabs.ai" className="btn-text">Email us <span className="arr">→</span></a>
               </div>
             </div>
             <div className="pricing-right">
@@ -335,7 +335,7 @@ export default function Home() {
               <button className="cta-btn">Let&apos;s talk →</button>
             </div>
             <div className="cta-or">or</div>
-            <div className="cta-email">Reach us directly at <a href="mailto:hello@triadlabs.ai">hello@triadlabs.ai</a></div>
+            <div className="cta-email">Reach us directly at <a href="mailto:founders@triadlabs.ai">founders@triadlabs.ai</a></div>
           </div>
 
           <div className="cta-visual reveal">
@@ -407,9 +407,7 @@ export default function Home() {
             <div className="ft-col">
               <span className="ft-col-head">Contact</span>
               <ul>
-                <li><a href="mailto:hello@triadlabs.ai">hello@triadlabs.ai</a></li>
-                <li><a href="#">LinkedIn</a></li>
-                <li><a href="#">Twitter / X</a></li>
+                <li><a href="mailto:founders@triadlabs.ai">founders@triadlabs.ai</a></li>
               </ul>
             </div>
           </div>
