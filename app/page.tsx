@@ -35,29 +35,29 @@ export default function Home() {
           Triad Labs
         </a>
         <ul className="nav-links">
-          <li><a href="#how">How we work</a></li>
+          <li><a href="#how">How it works</a></li>
           <li><a href="#what-you-get">What you get</a></li>
           <li><a href="#pricing">Pricing</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-        <a href="#contact" className="nav-cta">Work with us</a>
+        <a href="#pricing" className="nav-cta">Get started</a>
       </nav>
 
       {/* HERO */}
       <section className="hero">
         <div className="hero-inner">
           <div>
-            <div className="hero-eyebrow">AI-Native Studio</div>
+            <div className="hero-eyebrow">Personal AI — Built for Knowledge Workers</div>
             <h1 className="hero-head">
-              <span className="ln"><span className="wd">We make</span></span>
-              <span className="ln"><span className="wd">companies</span></span>
-              <span className="ln"><span className="wd"><em>AI native.</em></span></span>
+              <span className="ln"><span className="wd">Your own AI.</span></span>
+              <span className="ln"><span className="wd">Set up right.</span></span>
+              <span className="ln"><span className="wd"><em>From day one.</em></span></span>
             </h1>
             <p className="hero-sub">
-              Triad Labs embeds autonomous AI systems across your organisation — so your team moves faster, thinks bigger, and operates at a level that wasn&apos;t possible before.
+              Triad Labs gives every person on your team a fully configured personal AI — custom agents, role-specific workflows, and the setup done for them. Expert support available when you need to go deeper.
             </p>
             <div className="hero-actions">
-              <a href="#contact" className="btn-primary">Start the conversation</a>
+              <a href="#pricing" className="btn-primary">See pricing</a>
               <a href="#how" className="btn-text">How it works <span className="arr">→</span></a>
             </div>
           </div>
@@ -65,7 +65,7 @@ export default function Home() {
           <div className="hero-visual">
             <div className="hv-card">
               <div className="hv-top">
-                <span className="hv-label">Organisation — Agent Network</span>
+                <span className="hv-label">Your Personal AI Setup</span>
                 <span className="hv-status"><span className="hv-dot"></span>Active</span>
               </div>
               <div className="agent-nodes">
@@ -73,7 +73,7 @@ export default function Home() {
                   <div className="an-icon orch">ORC</div>
                   <div className="an-body">
                     <div className="an-name">Orchestrator</div>
-                    <div className="an-task">Routing tasks across team</div>
+                    <div className="an-task">Routing tasks — built for your role</div>
                   </div>
                   <div className="an-bar"><div className="an-fill"></div></div>
                 </div>
@@ -88,7 +88,7 @@ export default function Home() {
                 <div className="an-row">
                   <div className="an-icon exec">EXE</div>
                   <div className="an-body">
-                    <div className="an-name">Executor × 4</div>
+                    <div className="an-name">Task Agents × 4</div>
                     <div className="an-task">Research · drafts · CRM sync</div>
                   </div>
                   <div className="an-bar"><div className="an-fill"></div></div>
@@ -103,9 +103,9 @@ export default function Home() {
                 </div>
               </div>
               <div className="hv-footer">
-                <div className="hv-stat"><span className="hv-stat-n">24/7</span><span className="hv-stat-l">Always on</span></div>
+                <div className="hv-stat"><span className="hv-stat-n">$500</span><span className="hv-stat-l">Per seat / mo</span></div>
                 <div className="hv-stat"><span className="hv-stat-n">~15h</span><span className="hv-stat-l">Saved / person / wk</span></div>
-                <div className="hv-stat"><span className="hv-stat-n">Flat</span><span className="hv-stat-l">Per-org pricing</span></div>
+                <div className="hv-stat"><span className="hv-stat-n">Live</span><span className="hv-stat-l">Week one</span></div>
               </div>
             </div>
           </div>
@@ -115,18 +115,18 @@ export default function Home() {
       {/* TICKER */}
       <div className="strip">
         <div className="strip-track">
-          <span className="strip-item">Autonomous Agents</span>
-          <span className="strip-item">AI Native Transformation</span>
-          <span className="strip-item">Multi-Agent Systems</span>
+          <span className="strip-item">Personal Orchestrators</span>
+          <span className="strip-item">Role-Specific Agents</span>
           <span className="strip-item">Shared Agent Libraries</span>
           <span className="strip-item">Workflow Automation</span>
-          <span className="strip-item">Future Ready</span>
-          <span className="strip-item">Autonomous Agents</span>
-          <span className="strip-item">AI Native Transformation</span>
-          <span className="strip-item">Multi-Agent Systems</span>
+          <span className="strip-item">Expert Implementation</span>
+          <span className="strip-item">AI Native Teams</span>
+          <span className="strip-item">Personal Orchestrators</span>
+          <span className="strip-item">Role-Specific Agents</span>
           <span className="strip-item">Shared Agent Libraries</span>
           <span className="strip-item">Workflow Automation</span>
-          <span className="strip-item">Future Ready</span>
+          <span className="strip-item">Expert Implementation</span>
+          <span className="strip-item">AI Native Teams</span>
         </div>
       </div>
 
@@ -136,28 +136,28 @@ export default function Home() {
           <div className="pos-grid reveal">
             <div className="pos-copy">
               <div className="s-label">Why it matters</div>
-              <h2 className="s-head">Most companies are using AI.<br />Few are <em>built on it.</em></h2>
+              <h2 className="s-head">Most people have AI access.<br />Few are actually <em>set up to use it.</em></h2>
               <div style={{ marginTop: '2rem' }}>
-                <p>There&apos;s a difference between having a ChatGPT subscription and having AI woven into how your organisation actually operates — how it thinks, moves, and makes decisions.</p>
-                <p>We close that gap. Triad Labs designs and deploys <strong>autonomous agent systems</strong> that become the connective tissue of your company — handling the cognitive overhead so your people can focus on the work that matters.</p>
-                <p>The result isn&apos;t just efficiency. It&apos;s a <strong>fundamentally different way of operating</strong> — one your competitors won&apos;t catch up to easily.</p>
+                <p>There&apos;s a difference between having a ChatGPT subscription and having AI configured for <strong>how you actually work</strong> — your tools, your role, your priorities.</p>
+                <p>Triad Labs delivers a <strong>personal AI setup</strong> for every person on your team — a configured orchestrator, role-specific agents, and a shared library that compounds over time. Out of the box, ready to use.</p>
+                <p>For teams that want to go further — deeper integrations, custom workflows, org-wide rollout — our <em>implementation hours</em> are available as an add-on. You get as much or as little support as you need.</p>
               </div>
             </div>
             <div className="pos-right">
               <div className="pos-item">
                 <div className="pi-num">01</div>
-                <div className="pi-title">From tool users to AI-native teams</div>
-                <div className="pi-desc">Every person gets their own orchestrator and a library of agents built for their role — not generic, not off-the-shelf.</div>
+                <div className="pi-title">Ready to use, not ready to configure</div>
+                <div className="pi-desc">Every seat comes fully set up — orchestrator, task agents, memory layer. No weeks of onboarding. You&apos;re live in week one.</div>
               </div>
               <div className="pos-item">
                 <div className="pi-num">02</div>
-                <div className="pi-title">Shared intelligence across the org</div>
-                <div className="pi-desc">Brand, legal, ops, and revenue agents live in a shared library — built once, available to everyone, improving over time.</div>
+                <div className="pi-title">Shared intelligence across the team</div>
+                <div className="pi-desc">Brand, ops, and revenue agents live in a shared library — built once, available to everyone, improving with use.</div>
               </div>
               <div className="pos-item">
                 <div className="pi-num">03</div>
-                <div className="pi-title">Systems that compound</div>
-                <div className="pi-desc">Agents learn from every run. The longer they operate, the more context they accumulate — and the more useful they become.</div>
+                <div className="pi-title">Expert support when you need it</div>
+                <div className="pi-desc">Implementation hours available as an add-on — for deeper integrations, custom agent builds, or org-wide expansion.</div>
               </div>
             </div>
           </div>
@@ -168,41 +168,41 @@ export default function Home() {
       <section className="sec how-sec" id="how">
         <div className="sec-inner">
           <div className="reveal">
-            <div className="s-label">How we work</div>
-            <h2 className="s-head">Three months.<br />Permanently transformed.</h2>
+            <div className="s-label">How it works</div>
+            <h2 className="s-head">Set up in days.<br /><em>Running for good.</em></h2>
           </div>
           <div className="how-grid reveal">
             <div className="how-card">
-              <span className="hc-num">Month 01 — Build</span>
-              <h3 className="hc-title">Map, configure,<br />go live.</h3>
-              <p className="hc-desc">We map your workflows, configure machines remotely, and get your first agents live within the first week. Shared library deployed. Key roles up and running.</p>
+              <span className="hc-num">Step 01 — Onboard</span>
+              <h3 className="hc-title">We configure<br />your setup.</h3>
+              <p className="hc-desc">We map your role and workflows, configure your machine remotely, and get your personal orchestrator and agents live. Shared library deployed. Running within the first week.</p>
               <div className="hc-tags">
-                <span className="hc-tag">Workflow mapping</span>
-                <span className="hc-tag">Machine config</span>
+                <span className="hc-tag">Workflow intake</span>
+                <span className="hc-tag">Remote config</span>
                 <span className="hc-tag">Agent library</span>
                 <span className="hc-tag">Live in week 1</span>
               </div>
             </div>
             <div className="how-card">
-              <span className="hc-num">Month 02 — Scale</span>
-              <h3 className="hc-title">Full team.<br />Full coverage.</h3>
-              <p className="hc-desc">Every team member onboarded with their own orchestrator. Revenue agents — BD pipeline, lead prep, proposals — running autonomously. Observability layer added so you can see exactly what&apos;s working.</p>
+              <span className="hc-num">Step 02 — Use</span>
+              <h3 className="hc-title">It works.<br />You move faster.</h3>
+              <p className="hc-desc">Your orchestrator handles the cognitive overhead — research, drafts, pipeline updates, daily digests. Everything runs through your existing tools. No new interfaces to learn.</p>
               <div className="hc-tags">
-                <span className="hc-tag">Full onboarding</span>
-                <span className="hc-tag">Revenue agents</span>
-                <span className="hc-tag">Usage dashboard</span>
-                <span className="hc-tag">Performance data</span>
+                <span className="hc-tag">Works immediately</span>
+                <span className="hc-tag">No new tools</span>
+                <span className="hc-tag">Role-specific</span>
+                <span className="hc-tag">~15h saved / wk</span>
               </div>
             </div>
             <div className="how-card">
-              <span className="hc-num">Month 03 — Expand</span>
-              <h3 className="hc-title">Studios, portfolio,<br />beyond.</h3>
-              <p className="hc-desc">Extend the system to subsidiary teams, venture studios, or portfolio companies. We deliver a playbook so you can roll it out independently at scale.</p>
+              <span className="hc-num">Step 03 — Expand</span>
+              <h3 className="hc-title">Go deeper<br />when ready.</h3>
+              <p className="hc-desc">Add implementation hours for custom integrations, advanced agent builds, or rolling the system out to your full team, studio, or portfolio companies. As much or as little as you need.</p>
               <div className="hc-tags">
-                <span className="hc-tag">Studio rollout</span>
+                <span className="hc-tag">Custom builds</span>
+                <span className="hc-tag">Team rollout</span>
                 <span className="hc-tag">Portfolio ready</span>
-                <span className="hc-tag">Expansion playbook</span>
-                <span className="hc-tag">100+ company scale</span>
+                <span className="hc-tag">Hourly add-on</span>
               </div>
             </div>
           </div>
@@ -217,7 +217,7 @@ export default function Home() {
               <div className="s-label">Results</div>
               <h2 className="s-head">The numbers<br />speak clearly.</h2>
               <div className="proof-quote" style={{ marginTop: '2.5rem' }}>
-                <p className="pq-text">&ldquo;Triad built a 300+ agent system across our studio. We got back <em>36 hours a week</em> — time that used to disappear into admin and manual pipeline work.&rdquo;</p>
+                <p className="pq-text">&ldquo;Triad built out our studio&apos;s agent system and got it running fast. We recovered <em>36 hours a week</em> — time that used to disappear into admin and manual pipeline work.&rdquo;</p>
                 <div className="pq-attr"><span>Studio Head</span> — Venture Studio, 2024</div>
               </div>
             </div>
@@ -225,7 +225,7 @@ export default function Home() {
               <div className="ps-cell"><span className="ps-n">300+</span><span className="ps-l">Agents deployed</span></div>
               <div className="ps-cell"><span className="ps-n">36h</span><span className="ps-l">Saved per week</span></div>
               <div className="ps-cell"><span className="ps-n">~$1.8M</span><span className="ps-l">Estimated yr 1 value</span></div>
-              <div className="ps-cell"><span className="ps-n">4 wks</span><span className="ps-l">To full deployment</span></div>
+              <div className="ps-cell"><span className="ps-n">1 wk</span><span className="ps-l">To first agents live</span></div>
             </div>
           </div>
         </div>
@@ -235,25 +235,25 @@ export default function Home() {
       <section className="sec get-sec" id="what-you-get">
         <div className="sec-inner">
           <div className="reveal">
-            <div className="s-label">What you get</div>
-            <h2 className="s-head">Everything your org<br />needs to run on AI.</h2>
+            <div className="s-label">What&apos;s included</div>
+            <h2 className="s-head">Everything in<br />every seat.</h2>
           </div>
           <div className="get-grid reveal">
             <div className="get-card">
               <div className="gc-icon">◈</div>
-              <h3 className="gc-title">Personal Orchestrators</h3>
-              <p className="gc-desc">Every person gets their own AI orchestrator — configured for their role, their tools, their workflow.</p>
+              <h3 className="gc-title">Personal Orchestrator</h3>
+              <p className="gc-desc">Every seat includes a fully configured AI orchestrator — built for your role, your tools, your workflow.</p>
               <ul className="gc-list">
                 <li>Role-specific configuration</li>
                 <li>3–6 specialised task agents</li>
-                <li>Remote setup included</li>
-                <li>Onboarding per team member</li>
+                <li>Remote setup by us</li>
+                <li>Works in your existing tools</li>
               </ul>
             </div>
             <div className="get-card">
               <div className="gc-icon">⬡</div>
               <h3 className="gc-title">Shared Agent Library</h3>
-              <p className="gc-desc">A cross-org library of agents anyone can use — built once, maintained by us, improving over time.</p>
+              <p className="gc-desc">A cross-team library of agents anyone can use — built once, maintained, improving over time.</p>
               <ul className="gc-list">
                 <li>Brand voice agent</li>
                 <li>SOW &amp; legal review</li>
@@ -265,13 +265,13 @@ export default function Home() {
             <div className="get-card">
               <div className="gc-icon">▣</div>
               <h3 className="gc-title">Observability Layer</h3>
-              <p className="gc-desc">See exactly where time is being saved, which agents are being used, and where to go next.</p>
+              <p className="gc-desc">See exactly where time is being saved, which agents are in use, and where to go next.</p>
               <ul className="gc-list">
                 <li>Usage dashboard</li>
                 <li>Adoption tracking</li>
                 <li>Monthly performance reports</li>
                 <li>48-hour issue SLA</li>
-                <li>Expansion roadmap</li>
+                <li>Expansion guidance</li>
               </ul>
             </div>
           </div>
@@ -283,45 +283,66 @@ export default function Home() {
         <div className="sec-inner">
           <div className="reveal">
             <div className="s-label">Pricing</div>
-            <h2 className="s-head">Simple. Flat.<br />Org-wide.</h2>
+            <h2 className="s-head">Start your journey<br /><em>towards an AI-native company.</em></h2>
           </div>
-          <div className="pricing-layout reveal">
-            <div className="pricing-card">
+          <div className="pricing-cards-wrap reveal">
+            {/* Run */}
+            <div className="pricing-card run-card">
+              <div className="pc-tier-name">Run</div>
+              <div className="pc-tier-sub">Get your team set up and running on AI</div>
               <div className="pc-price">
-                <span className="pc-num">$5k</span>
-                <span className="pc-per">/ week · flat rate</span>
+                <span className="pc-num">$500</span>
+                <span className="pc-per">/ seat / month</span>
               </div>
               <div className="pc-note">
-                <strong>$20,000 / month</strong> · 3-month retainer<br />
-                Covers your entire organisation. API costs run through your own keys — you stay in control of your data and spend.
+                Per person. API costs run through your own keys — you stay in control of your data and spend. No org-wide minimums.
               </div>
               <div className="pc-includes">
-                <div className="pc-inc">Personal orchestrator per team member</div>
-                <div className="pc-inc">Shared agent library, org-wide</div>
-                <div className="pc-inc">Machine setup &amp; remote configuration</div>
-                <div className="pc-inc">SOW, brand, legal &amp; BD agents</div>
+                <div className="pc-inc">Personal orchestrator — configured for your role</div>
+                <div className="pc-inc">3–6 task agents, built and ready</div>
+                <div className="pc-inc">Shared agent library access</div>
+                <div className="pc-inc">Remote machine setup by us</div>
                 <div className="pc-inc">Observability dashboard &amp; reporting</div>
                 <div className="pc-inc">48-hour SLA on bugs and issues</div>
-                <div className="pc-inc">Studio / portfolio expansion playbook</div>
-                <div className="pc-inc">All design, build, and maintenance</div>
               </div>
-              <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' as const }}>
-                <a href="#contact" className="btn-primary">Talk to us →</a>
-                
+              <a href="#contact" className="btn-secondary">Get started →</a>
+            </div>
+
+            {/* Build */}
+            <div className="pricing-card" id="build-card">
+              <div className="pc-tier-name">Build</div>
+              <div className="pc-tier-sub">For companies ready to transform</div>
+              <div className="pc-price">
+                <span className="pc-num" style={{ fontSize: '2.4rem' }}>Custom</span>
               </div>
+              <div className="pc-note">
+                Implementation &amp; consultation hours — for deeper integrations, custom agent builds, or rolling out to your full team or portfolio.
+              </div>
+              <div className="pc-includes">
+                <div className="pc-inc">Custom workflow integrations</div>
+                <div className="pc-inc">Advanced agent builds</div>
+                <div className="pc-inc">Full team or studio rollout</div>
+                <div className="pc-inc">Portfolio company expansion</div>
+              </div>
+              <a href="mailto:founders@triadlabs.ai" className="btn-primary">Talk to us about implementation →</a>
+              <div className="pc-upgrade-note">Includes Run for the duration of the engagement.</div>
             </div>
-            <div className="pricing-right">
-              <h3 className="pr-title">Not per user.<br />Not per machine.</h3>
-              <p className="pr-text">One flat rate covers your entire organisation — 10 people or 100. We&apos;ve structured it this way because it <strong>aligns our incentives with yours</strong>: we want every single person using it.</p>
-              <hr className="pr-rule" />
-              <h3 className="pr-title">The return.</h3>
-              <p className="pr-text">At ~15 hours saved per person per week, a 23-person team recovers <strong>$34,500 of productive time weekly</strong>. That&apos;s a 6.9× return in week one — before compounding.</p>
-              <hr className="pr-rule" />
-              <h3 className="pr-title">What happens after.</h3>
-              <p className="pr-text">You own everything we build. Most clients continue on a lighter retainer for maintenance and expansion — rolling out to studios and portfolio companies.</p>
-              <a href="mailto:founders@triadlabs.ai" className="btn-secondary">Need a custom quote? Talk to us <span className="arr">→</span></a>
-            </div>
-            
+
+            <p className="pricing-journey-note">Many clients start with Build. Run works on its own too.</p>
+          </div>
+
+          <div className="pricing-right reveal">
+            <h3 className="pr-title">Start with one. Scale freely.</h3>
+            <p className="pr-text">Run starts at a single seat. Roll it out to your whole team at whatever pace works. Each seat is fully configured — there&apos;s no minimum footprint to make it worth it. <strong>One seat delivers real value from day one.</strong></p>
+            <hr className="pr-rule" />
+            <h3 className="pr-title">The return.</h3>
+            <p className="pr-text">At ~15 hours saved per person per week, each Run seat pays for itself many times over. At $500/seat, you&apos;re recovering <strong>dozens of hours of productive time</strong> for the cost of a few hours of salary.</p>
+            <hr className="pr-rule" />
+            <h3 className="pr-title">The Build engagement.</h3>
+            <p className="pr-text">Build is a custom scoped engagement — deeper integrations, agent builds, and org-wide rollout. Priced to the scope of the work. <strong>Run is included for the duration.</strong></p>
+            <hr className="pr-rule" />
+            <h3 className="pr-title">You own it.</h3>
+            <p className="pr-text">Everything we build is yours. Your keys, your data, your agents. We set it up — you own the system.</p>
           </div>
         </div>
       </section>
@@ -331,48 +352,50 @@ export default function Home() {
         <div className="cta-inner">
           <div className="cta-left reveal">
             <div className="s-label">Get started</div>
-            <h2 className="cta-head">Ready to become<br /><em>AI native?</em></h2>
-            <p className="cta-sub">Drop your email and we&apos;ll set up a workflow mapping call — usually within 48 hours. No decks. Just a conversation about what your organisation needs.</p>
+            <h2 className="cta-head">Ready to run<br />on <em>your own AI?</em></h2>
+            <p className="cta-sub">Drop your email and we&apos;ll get your first seat configured — usually within a week. No decks. No long proposals. Just your personal AI, set up and running.</p>
             <div className="cta-form">
               <input className="cta-input" type="email" placeholder="your@company.com" />
-              <button className="cta-btn">Let&apos;s talk →</button>
+              <button className="cta-btn">Get started →</button>
             </div>
             <div className="cta-or">or</div>
-            <div className="cta-email">Reach us directly at <a href="mailto:founders@triadlabs.ai">founders@triadlabs.ai</a></div>
+            <div className="cta-email">
+              Need implementation support? <a href="mailto:founders@triadlabs.ai">founders@triadlabs.ai</a>
+            </div>
           </div>
 
           <div className="cta-visual reveal">
             <div className="cv-row">
-              <span className="cvr-label">Engagement</span>
-              <span className="cvr-val green">3-month retainer</span>
+              <span className="cvr-label">Pricing model</span>
+              <span className="cvr-val green">$500 / seat / month</span>
             </div>
             <div className="cv-row">
               <span className="cvr-label">First agents live</span>
               <span className="cvr-val green">Week 1</span>
             </div>
             <div className="cv-row">
-              <span className="cvr-label">Full team onboarded</span>
-              <span className="cvr-val dim">Month 2</span>
+              <span className="cvr-label">Minimum seats</span>
+              <span className="cvr-val dim">None — start with 1</span>
             </div>
             <div className="cv-row">
-              <span className="cvr-label">Studios expanded</span>
-              <span className="cvr-val dim">Month 3</span>
+              <span className="cvr-label">Remote setup</span>
+              <span className="cvr-val dim">Included</span>
             </div>
             <div className="cv-row">
               <span className="cvr-label">SLA</span>
               <span className="cvr-val dim">48-hour response</span>
             </div>
             <div className="cv-row">
-              <span className="cvr-label">Pricing model</span>
-              <span className="cvr-val dim">Flat rate · org-wide</span>
+              <span className="cvr-label">Implementation hours</span>
+              <span className="cvr-val dim">Available as add-on</span>
             </div>
             <div className="cv-row">
               <span className="cvr-label">Your data</span>
               <span className="cvr-val dim">Your keys · your control</span>
             </div>
             <div className="cv-row">
-              <span className="cvr-label">Estimated yr 1 value</span>
-              <span className="cvr-val green">~$1.8M recovered</span>
+              <span className="cvr-label">ROI per seat</span>
+              <span className="cvr-val green">~15h recovered / wk</span>
             </div>
           </div>
         </div>
@@ -391,13 +414,13 @@ export default function Home() {
                 </svg>
                 Triad Labs
               </a>
-              <p className="ft-desc">AI-native studio. We make companies future ready. triadlabs.ai</p>
+              <p className="ft-desc">Personal AI for knowledge workers. Set up right, from day one. triadlabs.ai</p>
             </div>
             <div className="ft-col">
-              <span className="ft-col-head">Services</span>
+              <span className="ft-col-head">Product</span>
               <ul>
-                <li><a href="#how">How we work</a></li>
-                <li><a href="#what-you-get">What you get</a></li>
+                <li><a href="#how">How it works</a></li>
+                <li><a href="#what-you-get">What&apos;s included</a></li>
                 <li><a href="#pricing">Pricing</a></li>
               </ul>
             </div>

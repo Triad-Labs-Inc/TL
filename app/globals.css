@@ -171,9 +171,30 @@ h1.hero-head { font-family:var(--serif);font-size:clamp(3.2rem,5.5vw,5.8rem);lin
 
 /* PRICING */
 .pricing-sec { background:var(--cream); }
-.pricing-layout { display:grid;grid-template-columns:1fr 1fr;gap:6rem;align-items:start;margin-top:3rem; }
-.pricing-card { background:var(--white);border:1px solid var(--rule);padding:2.75rem;position:relative;overflow:hidden; }
+.pricing-cards-wrap { display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:start;margin-top:3rem; }
+.pricing-right { display:grid;grid-template-columns:repeat(4,1fr);gap:3rem;align-items:start;margin-top:3rem;padding-top:3rem;border-top:1px solid var(--rule); }
+.pricing-card { background:var(--white);border:1px solid var(--rule);padding:2.75rem;position:relative;overflow:hidden;margin-bottom:0; }
 .pricing-card::before { content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--green),#4030a0); }
+
+/* Run card variant */
+.run-card { background:var(--cream);border-style:dashed; }
+.run-card::before { background:linear-gradient(90deg,rgba(26,107,71,.3),rgba(64,48,160,.3)); }
+
+/* Tier name + subtitle */
+.pc-tier-name { font-family:var(--serif);font-size:2rem;font-weight:400;letter-spacing:-.01em;margin-bottom:.25rem; }
+.pc-tier-sub { font-family:var(--mono);font-size:.7rem;letter-spacing:.08em;color:var(--muted);margin-bottom:1.5rem; }
+
+/* Upgrade note below Build CTA */
+.pc-upgrade-note { font-family:var(--mono);font-size:.68rem;color:var(--muted);margin-top:.85rem;padding-top:.85rem;border-top:1px solid var(--rule); }
+
+/* Scope note above Run CTA */
+.pc-scope-note { font-family:var(--mono);font-size:.68rem;color:var(--muted);margin-bottom:1.25rem;line-height:1.6; }
+.pc-scope-note a { color:var(--green);text-decoration:none; }
+.pc-scope-note a:hover { text-decoration:underline; }
+
+/* Journey tagline after both cards */
+.pricing-journey-note { font-family:var(--mono);font-size:.72rem;color:var(--muted);text-align:center;padding:1.25rem;border:1px solid var(--rule);background:var(--warm);letter-spacing:.02em;grid-column:1 / -1; }
+
 .pc-price { display:flex;align-items:baseline;gap:.6rem;margin-bottom:.5rem; }
 .pc-num { font-family:var(--serif);font-size:3.5rem;color:var(--ink);font-weight:400; }
 .pc-per { font-family:var(--mono);font-size:.8rem;color:var(--muted); }
@@ -182,11 +203,10 @@ h1.hero-head { font-family:var(--serif);font-size:clamp(3.2rem,5.5vw,5.8rem);lin
 .pc-includes { display:flex;flex-direction:column;gap:.5rem;margin-bottom:2.5rem; }
 .pc-inc { font-family:var(--mono);font-size:.71rem;color:var(--muted);display:flex;align-items:flex-start;gap:.6rem; }
 .pc-inc::before { content:'✓';color:var(--green);flex-shrink:0;font-weight:700; }
-.pricing-right { padding-top:1rem; }
-.pr-title { font-family:var(--serif);font-size:1.5rem;margin-bottom:1.25rem;font-weight:400; }
-.pr-text { font-family:var(--mono);font-size:.76rem;line-height:1.75;color:var(--muted);margin-bottom:1.5rem; }
+.pr-title { font-family:var(--serif);font-size:1.25rem;margin-bottom:.85rem;font-weight:400; }
+.pr-text { font-family:var(--mono);font-size:.73rem;line-height:1.75;color:var(--muted); }
 .pr-text strong { color:var(--ink);font-weight:500; }
-.pr-rule { border:none;border-top:1px solid var(--rule);margin:1.75rem 0; }
+.pr-rule { display:none; }
 
 /* CTA */
 .cta-sec { background:var(--ink);padding:7rem 3rem; }
@@ -238,7 +258,9 @@ footer { background:var(--warm);border-top:1px solid var(--rule);padding:3.5rem 
 
 /* RESPONSIVE */
 @media(max-width:1024px){
-  .hero-inner,.pos-grid,.proof-inner,.pricing-layout,.cta-inner{grid-template-columns:1fr;gap:3rem}
+  .hero-inner,.pos-grid,.proof-inner,.cta-inner{grid-template-columns:1fr;gap:3rem}
+  .pricing-cards-wrap{grid-template-columns:1fr}
+  .pricing-right{grid-template-columns:1fr 1fr}
   .hero-visual{display:none}
   .how-grid,.get-grid{grid-template-columns:1fr 1fr}
   .ft-top{grid-template-columns:1fr 1fr}
@@ -247,7 +269,7 @@ footer { background:var(--warm);border-top:1px solid var(--rule);padding:3.5rem 
   nav{padding:1rem 1.5rem}.nav-links{display:none}
   .sec{padding:4rem 1.5rem}
   h1.hero-head{font-size:2.9rem}
-  .how-grid,.get-grid,.proof-stats{grid-template-columns:1fr}
+  .how-grid,.get-grid,.proof-stats,.pricing-right{grid-template-columns:1fr}
   .ft-top{grid-template-columns:1fr}
   .cta-form{flex-direction:column}
   .cta-input{border-right:1px solid rgba(255,255,255,.12)}
